@@ -1,0 +1,12 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <winsock2.h>
+#include <iostream>
+#include <windows.h>
+#include <string>
+#include <vector>
+#include <cstring> 
+#include <unordered_map>
+#include <tlhelp32.h>
+#include <sstream>
+#include "utils/lazy_importer.hpp"
+#pragma comment(lib,"ws2_32.lib")
